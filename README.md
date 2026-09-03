@@ -1,10 +1,10 @@
 # QSOLVE: Quantum–Classical Optimisation of Coffee Fertiliser Distribution in Kirinyaga County
 
-# Q-FerliRoute
+### Project Information
 
-## Team Q-Gen
-
-**Q-FerliRoute** is developed by **Team Q-Gen**.
+* **Project Name:** Q-FerliRoute
+* **Team Name:** Team Q-Gen
+* **Team Size:** 5 Members
 
 ### Team Members
 

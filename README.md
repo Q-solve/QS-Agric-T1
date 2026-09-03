@@ -1,5 +1,7 @@
 # QSOLVE: Quantum Logistics Optimization for Fertilizer Distribution
 
+
+
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Qiskit](https://img.shields.io/badge/Qiskit-1.0+-purple.svg)](https://qiskit.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -11,7 +13,7 @@
 
 ---
 
-## 🎯 The Problem: Fertilizer Distribution at Scale
+## The Problem: Fertilizer Distribution at Scale
 
 **The challenge:** Delivering fertiliser to scattered farms is a logistical nightmare. Limited fleets, fluctuating depot stocks, strict delivery windows, and challenging rural road networks create an optimization problem too complex for standard computers to solve efficiently at scale.
 
@@ -20,13 +22,13 @@
 **Scope for this hackathon:** Given the time constraints, we built and validated the full pipeline on a single case study — the Karatina depot and its 7 factories. The model, encoding, and solvers are depot-agnostic by design: nothing is hard-coded to Karatina beyond the input dataset. The natural next step (see [Roadmap](#-roadmap-multi-depot-dashboard) below) is a dashboard where any depot can upload its own factories, demands, and distances and get optimized routes back.
 
 **Our solution:** A hybrid quantum-classical approach that:
-- 🚛 Uses **quantum QAOA** to find optimal multi-stop truck routes in sub-second time
-- 📊 Uses **classical MILP** to validate solutions and handle truck allocation
-- 🎯 Achieves a **<1% cost gap** from the classical optimum at a **1500× speedup**
+-  Uses **quantum QAOA** to find optimal multi-stop truck routes in sub-second time
+-  Uses **classical MILP** to validate solutions and handle truck allocation
+-  Achieves a **<1% cost gap** from the classical optimum at a **1500× speedup**
 
 ---
 
-## 🔬 Project Overview
+##  Project Overview
 
 ### Key Innovation
 We formulate the fertilizer routing problem as a traveling salesperson problem with load-dependent costs. The quantum algorithm explores `n!` possible routes using only `⌈log₂(n!)⌉` qubits, achieving exponential compression versus a naive `n²` encoding.
@@ -57,7 +59,7 @@ We formulate the fertilizer routing problem as a traveling salesperson problem w
 
 ---
 
-## 📊 Key Results
+##  Key Results
 
 ### Performance comparison
 
@@ -91,7 +93,7 @@ Karatina → Kianjega → Nguguini → Karatina
 
 ---
 
-## 🛠️ Technical Architecture
+##  Technical Architecture
 
 ### 1. Quantum approach (QAOA)
 
@@ -146,7 +148,7 @@ Stage 2 — With cost fixed, minimize distance → 951.95 km
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 QSOLVE/
@@ -175,7 +177,7 @@ QSOLVE/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -256,7 +258,7 @@ Runtime: 299.89 s
 
 ---
 
-## 📈 Results & Analysis
+##  Results & Analysis
 
 Figures are saved to `results/`:
 
@@ -278,7 +280,7 @@ Figures are saved to `results/`:
 
 ---
 
-## 📚 Core Concepts
+##  Core Concepts
 
 **Load-dependent cost model** — transport cost depends on how much weight is carried on each leg, not just distance:
 
@@ -317,10 +319,10 @@ Solves the full SDVRP using classical MILP.
 
 | Question | Answer |
 |---|---|
-| Can quantum algorithms solve real logistics problems? | ✅ QAOA finds high-quality routes (99.1% optimal) for 7-factory instances |
-| Is quantum faster for routing? | ✅ ~1500× speedup over classical MILP on the routing subproblem |
-| Is the quantum encoding efficient? | ✅ 13 qubits for 5,040 routes vs. 49 for an n² encoding |
-| Can quantum handle real constraints? | ✅ Full validation against capacity, time, and demand constraints |
+| Can quantum algorithms solve real logistics problems? |  QAOA finds high-quality routes (99.1% optimal) for 7-factory instances |
+| Is quantum faster for routing? |  ~1500× speedup over classical MILP on the routing subproblem |
+| Is the quantum encoding efficient? |  13 qubits for 5,040 routes vs. 49 for an n² encoding |
+| Can quantum handle real constraints? |  Full validation against capacity, time, and demand constraints |
 
 ### Limitations & future work
 
@@ -336,7 +338,7 @@ Solves the full SDVRP using classical MILP.
 
 ---
 
-## 🗺️ Roadmap: Multi-Depot Dashboard
+##  Roadmap: Multi-Depot Dashboard
 
 Karatina was chosen as our proof-of-concept case study because of the hackathon time window, not a limitation of the underlying model. The next milestone is a self-serve dashboard so any depot can run the same pipeline on its own data:
 
@@ -349,19 +351,19 @@ This turns QSOLVE from a single case study into a reusable planning tool for fer
 
 ---
 
-## 🏆 Highlights
+##  Highlights
 
-- ✅ 1500× faster route optimization vs. classical MILP
-- ✅ <1% cost gap from the classical optimal solution
-- ✅ 3.8× fewer qubits than an n² encoding (13 vs. 49 for 7 factories)
-- ✅ Real-world data: OSM road distances and actual factory demands (233.7 tonnes)
-- ✅ Full constraint satisfaction: capacity, time, demand, road restrictions
-- ✅ Two-stage optimization: cost, then distance
-- ✅ Route maps and scaling plots included in `results/`
+-  1500× faster route optimization vs. classical MILP
+-  <1% cost gap from the classical optimal solution
+-  3.8× fewer qubits than an n² encoding (13 vs. 49 for 7 factories)
+-  Real-world data: OSM road distances and actual factory demands (233.7 tonnes)
+-  Full constraint satisfaction: capacity, time, demand, road restrictions
+-  Two-stage optimization: cost, then distance
+-  Route maps and scaling plots included in `results/`
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -372,13 +374,13 @@ This turns QSOLVE from a single case study into a reusable planning tool for fer
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — see [LICENSE](LICENSE).
 
 ---
 
-## 👥 Team
+##  Team
 
 **QSOLVE Agriculture Track — Team 1**
 *(add team member names and roles here)*
@@ -388,7 +390,7 @@ MIT License — see [LICENSE](LICENSE).
 
 ---
 
-## 📝 Citation
+##  Citation
 
 ```bibtex
 @software{qsolve2026,
@@ -401,7 +403,7 @@ MIT License — see [LICENSE](LICENSE).
 
 ---
 
-## 🔗 Related Work
+##  Related Work
 
 - [Quantum Approximate Optimization Algorithm (QAOA)](https://arxiv.org/abs/1411.4028)
 - [Split Delivery Vehicle Routing Problem (SDVRP)](https://pubsonline.informs.org/doi/abs/10.1287/trsc.23.2.73)

@@ -24,8 +24,6 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Hackathon](https://img.shields.io/badge/QSOLVE_Hackathon-Agriculture_Track-orange.svg)]()
 
-> A quantum-classical hybrid solution for optimizing fertilizer distribution logistics, achieving a 1500× faster routing decision with a <1% cost gap from the classical optimal solution.
-
 **Team 1 — Agriculture Track, QSOLVE Hackathon 2026**
 
 ---

@@ -8,13 +8,15 @@
 
 ### Team Members
 
+**Mentor:** Dickson Owuor, Strathmore University.
+
 | # | Name         |
 | - | ------------ |
-| 1 | Akram Ali    |
-| 2 | Mercy Amondi |
-| 3 | Peter Kimani |
-| 4 | Ruth Ngotho  |
-| 5 | Evans Nzomo  |
+| 1 | Akram Ali, State University of Zanzibar    |
+| 2 | Mercy Amondi, Maasai Mara University |
+| 3 | Peter Kimani, Maasai Mara University |
+| 4 | Ruth Ngotho, Maasai Mara University  |
+| 5 | Evans Nzomo, South Eastern Kenya University  |
 
 ### Project Information
 

@@ -1,0 +1,4 @@
+approach,total_distance_km,total_cost_kes,total_allocated_bags,total_unmet_bags,late_deliveries,number_of_routes,runtime_seconds
+Existing Baseline,2759.93,496782.0,82128.0,3891,0,92,0.25572752952575684
+Proposed Classical Allocation,2483.9399999999996,447112.0,82128.0,0,0,92,0.1281440258026123
+Proposed Quantum QAOA Small Instance,60.95,10973.0,3887.0,0,0,5,1.7298200130462646

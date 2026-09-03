@@ -1,5 +1,22 @@
-# QSOLVE: Quantum Logistics Optimization for Fertilizer Distribution
+# QSOLVE: Quantum–Classical Optimisation of Coffee Fertiliser Distribution in Kirinyaga County
 
+# Q-FerliRoute
+
+## Team Q-Gen
+
+**Q-FerliRoute** is developed by **Team Q-Gen**.
+
+### Team Members
+
+| # | Name         |
+| - | ------------ |
+| 1 | Akram Ali    |
+| 2 | Mercy Amondi |
+| 3 | Peter Kimani |
+| 4 | Ruth Ngotho  |
+| 5 | Evans Nzomo  |
+
+### Project Information
 
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)

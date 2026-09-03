@@ -2,7 +2,7 @@
 
 ### Project Information
 
-* **Project Name:** Q-FerliRoute
+* **Project Name:** Q-FertiRoute
 * **Team Name:** Team Q-Gen
 * **Team Size:** 5 Members
 

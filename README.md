@@ -172,22 +172,17 @@ QSOLVE/
 │   └── QSOLVE_QAOA_Scaling_2_to_7_Factories_qBraid.ipynb
 │
 ├── classical/
-│   ├── milp_solver.py
-│   ├── brute_force_benchmark.py
-│   └── 7_routes_classical_approach.ipynb
+│   ├── source_data
+│   ├──  7_routes_classical_approach.ip
+│   
 │
 ├── data/
 │   ├── QSOLVE_Quantum_Ready_Dataset_frozen.xlsx
 │   └── QSOLVE_Single_Quantum_Route_Dataset.xlsx
-│
-├── results/
-│   ├── QSOLVE_QAOA_Scaling_2_to_7_Factories.xlsx
-│   ├── Classical_SDVRP_Scaling_2_to_7.xlsx
-│   └── 7_Factory_Optimized_Route_Map.png
+
 │
 ├── README.md
-├── requirements.txt
-└── LICENSE
+
 ```
 
 ---
@@ -398,10 +393,11 @@ MIT License — see [LICENSE](LICENSE).
 ##  Team
 
 **QSOLVE Agriculture Track — Team 1**
-*(add team member names and roles here)*
-
-**Contact:** `[team email]`
-**GitHub:** `[github.com/your-org/QSOLVE]`
+Mercy Amondi - MILP algorithim Specialist
+Evans Nzomo - QAOA Algorithim expert
+Akram Ali Omar - project leader
+Ruth Ngotho - innovation expert
+Peter Kimani - data engineer
 
 ---
 
@@ -412,7 +408,7 @@ MIT License — see [LICENSE](LICENSE).
   author  = {Team 1, QSOLVE Agriculture Track},
   title   = {QSOLVE: Quantum Logistics Optimization for Fertilizer Distribution},
   year    = {2026},
-  url     = {https://github.com/your-org/QSOLVE}
+  
 }
 ```
 
